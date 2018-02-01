@@ -22,13 +22,13 @@
         "Entry"
         {
         "MsmKey" = "8:_0A5AFCAC867CE9BB0734DBFCA143F711"
-        "OwnerKey" = "8:_44B8881BB40BD6E8C8051BC26B9C6EB9"
+        "OwnerKey" = "8:_E55A1FB32E2F41E98F9E04CA20CC4383"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_0A5AFCAC867CE9BB0734DBFCA143F711"
-        "OwnerKey" = "8:_0BFACBD7C04EE3D28265BCD72B00A551"
+        "OwnerKey" = "8:_207E233B0A90AB6CB6470F19737927E0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -39,20 +39,32 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_0BFACBD7C04EE3D28265BCD72B00A551"
+        "MsmKey" = "8:_207E233B0A90AB6CB6470F19737927E0"
         "OwnerKey" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_0BFACBD7C04EE3D28265BCD72B00A551"
-        "OwnerKey" = "8:_44B8881BB40BD6E8C8051BC26B9C6EB9"
+        "MsmKey" = "8:_207E233B0A90AB6CB6470F19737927E0"
+        "OwnerKey" = "8:_E55A1FB32E2F41E98F9E04CA20CC4383"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_44B8881BB40BD6E8C8051BC26B9C6EB9"
+        "MsmKey" = "8:_3B48E48EE2BD6FB1DCB1856FF87A69C9"
         "OwnerKey" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3B48E48EE2BD6FB1DCB1856FF87A69C9"
+        "OwnerKey" = "8:_E55A1FB32E2F41E98F9E04CA20CC4383"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_3B48E48EE2BD6FB1DCB1856FF87A69C9"
+        "OwnerKey" = "8:_207E233B0A90AB6CB6470F19737927E0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -69,24 +81,6 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_995B1C86F4682184E85A689B8DEA0242"
-        "OwnerKey" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_995B1C86F4682184E85A689B8DEA0242"
-        "OwnerKey" = "8:_44B8881BB40BD6E8C8051BC26B9C6EB9"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_995B1C86F4682184E85A689B8DEA0242"
-        "OwnerKey" = "8:_0BFACBD7C04EE3D28265BCD72B00A551"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
         "MsmKey" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
@@ -94,6 +88,12 @@
         "Entry"
         {
         "MsmKey" = "8:_C89FFC501BBB39F63B843FC9D254568B"
+        "OwnerKey" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
+        "MsmKey" = "8:_E55A1FB32E2F41E98F9E04CA20CC4383"
         "OwnerKey" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -112,19 +112,19 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_44B8881BB40BD6E8C8051BC26B9C6EB9"
+        "OwnerKey" = "8:_E55A1FB32E2F41E98F9E04CA20CC4383"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_0BFACBD7C04EE3D28265BCD72B00A551"
+        "OwnerKey" = "8:_207E233B0A90AB6CB6470F19737927E0"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_995B1C86F4682184E85A689B8DEA0242"
+        "OwnerKey" = "8:_3B48E48EE2BD6FB1DCB1856FF87A69C9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -271,14 +271,14 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_0BFACBD7C04EE3D28265BCD72B00A551"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_207E233B0A90AB6CB6470F19737927E0"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Ristorante.Mamma.Carielo.Persistence, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:Ristorante.Mamma.Carielo.Persistence, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_0BFACBD7C04EE3D28265BCD72B00A551"
+                    "_207E233B0A90AB6CB6470F19737927E0"
                     {
                     "Name" = "8:Ristorante.Mamma.Carielo.Persistence.dll"
                     "Attributes" = "3:512"
@@ -302,20 +302,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_44B8881BB40BD6E8C8051BC26B9C6EB9"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3B48E48EE2BD6FB1DCB1856FF87A69C9"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Ristorante.Mamma.Carielo.Repository, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:Ristorante.Mamma.Carielo.Domain, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_44B8881BB40BD6E8C8051BC26B9C6EB9"
+                    "_3B48E48EE2BD6FB1DCB1856FF87A69C9"
                     {
-                    "Name" = "8:Ristorante.Mamma.Carielo.Repository.dll"
+                    "Name" = "8:Ristorante.Mamma.Carielo.Domain.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Ristorante.Mamma.Carielo.Repository.dll"
+            "SourcePath" = "8:Ristorante.Mamma.Carielo.Domain.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_83182BDA571A45F39B215CDF77063480"
@@ -384,20 +384,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_995B1C86F4682184E85A689B8DEA0242"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C89FFC501BBB39F63B843FC9D254568B"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Ristorante.Mamma.Carielo.Domain, Version=1.0.0.0, Culture=neutral, processorArchitecture=AMD64"
+            "AssemblyAsmDisplayName" = "8:EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_995B1C86F4682184E85A689B8DEA0242"
+                    "_C89FFC501BBB39F63B843FC9D254568B"
                     {
-                    "Name" = "8:Ristorante.Mamma.Carielo.Domain.dll"
+                    "Name" = "8:EntityFramework.SqlServer.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:Ristorante.Mamma.Carielo.Domain.dll"
+            "SourcePath" = "8:EntityFramework.SqlServer.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_83182BDA571A45F39B215CDF77063480"
@@ -415,20 +415,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_C89FFC501BBB39F63B843FC9D254568B"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E55A1FB32E2F41E98F9E04CA20CC4383"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:Ristorante.Mamma.Carielo.Repository, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_C89FFC501BBB39F63B843FC9D254568B"
+                    "_E55A1FB32E2F41E98F9E04CA20CC4383"
                     {
-                    "Name" = "8:EntityFramework.SqlServer.dll"
+                    "Name" = "8:Ristorante.Mamma.Carielo.Repository.dll"
                     "Attributes" = "3:512"
                     }
                 }
-            "SourcePath" = "8:EntityFramework.SqlServer.dll"
+            "SourcePath" = "8:Ristorante.Mamma.Carielo.Repository.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_83182BDA571A45F39B215CDF77063480"
@@ -544,8 +544,8 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Ristorante"
-        "ProductCode" = "8:{0B2E0919-8D66-4716-A4D6-AEF9A16996A0}"
-        "PackageCode" = "8:{E89AB14E-8F9C-4A8F-9520-FA8EF836189A}"
+        "ProductCode" = "8:{D9CCE6AA-EBDF-416D-8A35-3447D06D8945}"
+        "PackageCode" = "8:{0E660ED8-5545-4F8D-970F-CB962568BD87}"
         "UpgradeCode" = "8:{4500DCBA-CAD1-4E35-8EFE-637BF7D6CE1D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -1094,7 +1094,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_B7D42B70D31749E592B4453C2B1C87B9"
             {
-            "SourcePath" = "8:..\\Ristorante.Mamma.Carielo.WinForms\\obj\\x64\\Release\\Ristorante.Mamma.Carielo.WinForms.exe"
+            "SourcePath" = "8:..\\Ristorante.Mamma.Carielo.WinForms\\obj\\Debug\\Ristorante.Mamma.Carielo.WinForms.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_83182BDA571A45F39B215CDF77063480"
