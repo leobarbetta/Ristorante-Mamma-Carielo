@@ -51,6 +51,12 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_33F5478116CF4086A7330F65FA3C10CF"
+        "OwnerKey" = "8:_UNDEFINED"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_3B48E48EE2BD6FB1DCB1856FF87A69C9"
         "OwnerKey" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
         "MsmSig" = "8:_UNDEFINED"
@@ -69,7 +75,7 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_6F04741353604939AA6D66C32736D8B1"
+        "MsmKey" = "8:_525B86212DF747D8B030891D47BBBE3E"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -93,14 +99,14 @@
         }
         "Entry"
         {
-        "MsmKey" = "8:_E55A1FB32E2F41E98F9E04CA20CC4383"
-        "OwnerKey" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
+        "MsmKey" = "8:_D1067C4784D74484991F05B3E500743F"
+        "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_F2317ED60121419FB1899DE80538D2CB"
-        "OwnerKey" = "8:_UNDEFINED"
+        "MsmKey" = "8:_E55A1FB32E2F41E98F9E04CA20CC4383"
+        "OwnerKey" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
@@ -232,7 +238,7 @@
                 {
                 "Name" = "8:.NET Framework"
                 "Message" = "8:[VSDNETMSG]"
-                "FrameworkVersion" = "8:.NETFramework,Version=v4.6.1"
+                "FrameworkVersion" = "8:.NETFramework,Version=v4.5.1"
                 "AllowLaterVersions" = "11:FALSE"
                 "InstallUrl" = "8:http://go.microsoft.com/fwlink/?LinkId=671728"
                 }
@@ -302,6 +308,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_33F5478116CF4086A7330F65FA3C10CF"
+            {
+            "SourcePath" = "8:..\\Ristorante.Mamma.Carielo.WinForms\\Media\\favicon.ico"
+            "TargetName" = "8:favicon.ico"
+            "Tag" = "8:"
+            "Folder" = "8:_7798CF6E82E24917B2AF670AB74895B5"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_3B48E48EE2BD6FB1DCB1856FF87A69C9"
             {
             "AssemblyRegister" = "3:1"
@@ -333,10 +359,10 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_6F04741353604939AA6D66C32736D8B1"
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_525B86212DF747D8B030891D47BBBE3E"
             {
-            "SourcePath" = "8:..\\Ristorante.Mamma.Carielo.WinForms\\Dados\\Database.mdf"
-            "TargetName" = "8:Database.mdf"
+            "SourcePath" = "8:..\\Ristorante.Mamma.Carielo.WinForms\\Dados\\Database_log.ldf"
+            "TargetName" = "8:Database_log.ldf"
             "Tag" = "8:"
             "Folder" = "8:_B9FA352BEBA54ED0955660CC7AAE2298"
             "Condition" = "8:"
@@ -415,6 +441,26 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
+            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_D1067C4784D74484991F05B3E500743F"
+            {
+            "SourcePath" = "8:..\\Ristorante.Mamma.Carielo.WinForms\\Dados\\Database.mdf"
+            "TargetName" = "8:Database.mdf"
+            "Tag" = "8:"
+            "Folder" = "8:_B9FA352BEBA54ED0955660CC7AAE2298"
+            "Condition" = "8:"
+            "Transitive" = "11:FALSE"
+            "Vital" = "11:TRUE"
+            "ReadOnly" = "11:FALSE"
+            "Hidden" = "11:FALSE"
+            "System" = "11:FALSE"
+            "Permanent" = "11:FALSE"
+            "SharedLegacy" = "11:FALSE"
+            "PackageAs" = "3:1"
+            "Register" = "3:1"
+            "Exclude" = "11:FALSE"
+            "IsDependency" = "11:FALSE"
+            "IsolateTo" = "8:"
+            }
             "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E55A1FB32E2F41E98F9E04CA20CC4383"
             {
             "AssemblyRegister" = "3:1"
@@ -446,26 +492,6 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{1FB2D0AE-D3B9-43D4-B9DD-F88EC61E35DE}:_F2317ED60121419FB1899DE80538D2CB"
-            {
-            "SourcePath" = "8:..\\Ristorante.Mamma.Carielo.WinForms\\Dados\\Database_log.ldf"
-            "TargetName" = "8:Database_log.ldf"
-            "Tag" = "8:"
-            "Folder" = "8:_B9FA352BEBA54ED0955660CC7AAE2298"
-            "Condition" = "8:"
-            "Transitive" = "11:FALSE"
-            "Vital" = "11:TRUE"
-            "ReadOnly" = "11:FALSE"
-            "Hidden" = "11:FALSE"
-            "System" = "11:FALSE"
-            "Permanent" = "11:FALSE"
-            "SharedLegacy" = "11:FALSE"
-            "PackageAs" = "3:1"
-            "Register" = "3:1"
-            "Exclude" = "11:FALSE"
-            "IsDependency" = "11:FALSE"
-            "IsolateTo" = "8:"
-            }
         }
         "FileType"
         {
@@ -493,6 +519,17 @@
             "Property" = "8:TARGETDIR"
                 "Folders"
                 {
+                    "{9EF0B969-E518-4E46-987F-47570745A589}:_7798CF6E82E24917B2AF670AB74895B5"
+                    {
+                    "Name" = "8:Media"
+                    "AlwaysCreate" = "11:FALSE"
+                    "Condition" = "8:"
+                    "Transitive" = "11:FALSE"
+                    "Property" = "8:_2C862E62D83640EA8DE1D571EA2FCE16"
+                        "Folders"
+                        {
+                        }
+                    }
                     "{9EF0B969-E518-4E46-987F-47570745A589}:_B9FA352BEBA54ED0955660CC7AAE2298"
                     {
                     "Name" = "8:Dados"
@@ -544,15 +581,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Ristorante"
-        "ProductCode" = "8:{D9CCE6AA-EBDF-416D-8A35-3447D06D8945}"
-        "PackageCode" = "8:{0E660ED8-5545-4F8D-970F-CB962568BD87}"
+        "ProductCode" = "8:{DA11CCF9-095C-4DBB-B5D0-BCF562EA1104}"
+        "PackageCode" = "8:{6E2AF933-C44C-4C02-9521-9292694A3B7B}"
         "UpgradeCode" = "8:{4500DCBA-CAD1-4E35-8EFE-637BF7D6CE1D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:Mamma Carielo"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"
@@ -562,7 +599,7 @@
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:"
         "ARPURLINFOABOUT" = "8:"
-        "ARPPRODUCTICON" = "8:"
+        "ARPPRODUCTICON" = "8:_33F5478116CF4086A7330F65FA3C10CF"
         "ARPIconIndex" = "3:0"
         "SearchPath" = "8:"
         "UseSystemSearchPath" = "11:TRUE"
@@ -676,7 +713,7 @@
             "Target" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
             "Folder" = "8:_5D81314CEFB6493A8E5FAC5C23F51264"
             "WorkingFolder" = "8:_83182BDA571A45F39B215CDF77063480"
-            "Icon" = "8:"
+            "Icon" = "8:_33F5478116CF4086A7330F65FA3C10CF"
             "Feature" = "8:"
             }
             "{970C0BB2-C7D0-45D7-ABFA-7EC378858BC0}:_F0C2E356391F48CE8F7255248DC10CFD"
@@ -690,7 +727,7 @@
             "Target" = "8:_B7D42B70D31749E592B4453C2B1C87B9"
             "Folder" = "8:_EB07FF4E57484FE68B6B41BC0E333151"
             "WorkingFolder" = "8:_83182BDA571A45F39B215CDF77063480"
-            "Icon" = "8:"
+            "Icon" = "8:_33F5478116CF4086A7330F65FA3C10CF"
             "Feature" = "8:"
             }
         }

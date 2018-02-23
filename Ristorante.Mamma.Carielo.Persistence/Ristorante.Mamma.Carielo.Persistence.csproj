@@ -85,9 +85,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context\RistoranteMammaCarieloDbContext.cs" />
-    <Compile Include="Migrations\201801170128123_Inicial.cs" />
-    <Compile Include="Migrations\201801170128123_Inicial.Designer.cs">
-      <DependentUpon>201801170128123_Inicial.cs</DependentUpon>
+    <Compile Include="Migrations\201802081855446_Inicial.cs" />
+    <Compile Include="Migrations\201802081855446_Inicial.Designer.cs">
+      <DependentUpon>201802081855446_Inicial.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -103,8 +103,8 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="Migrations\201801170128123_Inicial.resx">
-      <DependentUpon>201801170128123_Inicial.cs</DependentUpon>
+    <EmbeddedResource Include="Migrations\201802081855446_Inicial.resx">
+      <DependentUpon>201802081855446_Inicial.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

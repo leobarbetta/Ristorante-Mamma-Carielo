@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormInicial));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.faturamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.despesasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -48,6 +49,7 @@
             this.mercadosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.panel = new System.Windows.Forms.Panel();
             this.lblLoading = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.panel.SuspendLayout();
             this.SuspendLayout();
@@ -228,12 +230,23 @@
             this.lblLoading.TabIndex = 15;
             this.lblLoading.Text = "Carregando informações...";
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(13, 287);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(404, 15);
+            this.label3.TabIndex = 11;
+            this.label3.Text = "Os indicadores consideram apenas valores com pagamento confirmado.";
+            // 
             // FormInicial
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(434, 311);
             this.Controls.Add(this.panel);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.lblSaidaMes);
             this.Controls.Add(this.lblResultadoMes);
             this.Controls.Add(this.lblEntradaMes);
@@ -245,6 +258,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.menuStrip1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormInicial";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -281,5 +295,6 @@
         private System.Windows.Forms.ToolStripMenuItem mercadosToolStripMenuItem1;
         private System.Windows.Forms.Panel panel;
         private System.Windows.Forms.Label lblLoading;
+        private System.Windows.Forms.Label label3;
     }
 }

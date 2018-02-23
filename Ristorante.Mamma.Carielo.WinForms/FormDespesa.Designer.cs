@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDespesa));
             this.grdDespesas = new System.Windows.Forms.DataGridView();
             this.dtpData = new System.Windows.Forms.DateTimePicker();
             this.cbxFormaPagamento = new System.Windows.Forms.ComboBox();
@@ -187,6 +188,7 @@
             this.Controls.Add(this.dtpData);
             this.Controls.Add(this.grdDespesas);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormDespesa";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

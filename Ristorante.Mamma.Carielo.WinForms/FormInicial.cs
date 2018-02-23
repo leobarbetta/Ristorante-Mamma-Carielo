@@ -68,7 +68,7 @@ namespace Ristorante.Mamma.Carielo.WinForms
         private async void CarregaIndicadores()
         {
             List<Despesa> despesas = await _despesaRepository.Select();
-            List<Faturamento> faturamentos = await _faturamentoRepository.Select();
+            List<Faturamento> faturamentos = await _faturamentoRepository.Select(p => p.IsPago);
 
             int mesAtual = DateTime.Today.Month;
 

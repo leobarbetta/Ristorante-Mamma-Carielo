@@ -4,6 +4,6 @@
     {
         Dinheiro = 1,
         Cartao = 2,
-        
+        Ticket = 3
     }
 }

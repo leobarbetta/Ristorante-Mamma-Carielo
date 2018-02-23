@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormFaturamento));
             this.txtValor = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.cbxCliente = new System.Windows.Forms.ComboBox();
@@ -42,6 +43,8 @@
             this.grdFaturamentos = new System.Windows.Forms.DataGridView();
             this.lblValorTotal = new System.Windows.Forms.Label();
             this.lblLoading = new System.Windows.Forms.Label();
+            this.chbPago = new System.Windows.Forms.CheckBox();
+            this.chbPagosNaoPagos = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.grdFaturamentos)).BeginInit();
             this.SuspendLayout();
             // 
@@ -65,7 +68,7 @@
             // cbxCliente
             // 
             this.cbxCliente.FormattingEnabled = true;
-            this.cbxCliente.Location = new System.Drawing.Point(226, 28);
+            this.cbxCliente.Location = new System.Drawing.Point(226, 29);
             this.cbxCliente.Name = "cbxCliente";
             this.cbxCliente.Size = new System.Drawing.Size(199, 21);
             this.cbxCliente.TabIndex = 22;
@@ -93,7 +96,7 @@
             // lblData
             // 
             this.lblData.AutoSize = true;
-            this.lblData.Location = new System.Drawing.Point(223, 53);
+            this.lblData.Location = new System.Drawing.Point(196, 53);
             this.lblData.Name = "lblData";
             this.lblData.Size = new System.Drawing.Size(30, 13);
             this.lblData.TabIndex = 19;
@@ -128,16 +131,17 @@
             // cbxFormaPagamento
             // 
             this.cbxFormaPagamento.FormattingEnabled = true;
-            this.cbxFormaPagamento.Location = new System.Drawing.Point(29, 68);
+            this.cbxFormaPagamento.Location = new System.Drawing.Point(29, 69);
             this.cbxFormaPagamento.Name = "cbxFormaPagamento";
-            this.cbxFormaPagamento.Size = new System.Drawing.Size(191, 21);
+            this.cbxFormaPagamento.Size = new System.Drawing.Size(163, 21);
             this.cbxFormaPagamento.TabIndex = 15;
             // 
             // dtpData
             // 
-            this.dtpData.Location = new System.Drawing.Point(226, 69);
+            this.dtpData.Format = System.Windows.Forms.DateTimePickerFormat.Short;
+            this.dtpData.Location = new System.Drawing.Point(199, 69);
             this.dtpData.Name = "dtpData";
-            this.dtpData.Size = new System.Drawing.Size(199, 20);
+            this.dtpData.Size = new System.Drawing.Size(163, 20);
             this.dtpData.TabIndex = 14;
             // 
             // grdFaturamentos
@@ -148,6 +152,7 @@
             this.grdFaturamentos.Size = new System.Drawing.Size(643, 285);
             this.grdFaturamentos.TabIndex = 13;
             this.grdFaturamentos.Visible = false;
+            this.grdFaturamentos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GrdFaturamentos_CellClick);
             // 
             // lblValorTotal
             // 
@@ -167,11 +172,36 @@
             this.lblLoading.TabIndex = 26;
             this.lblLoading.Text = "Carregando informações...";
             // 
+            // chbPago
+            // 
+            this.chbPago.AutoSize = true;
+            this.chbPago.Checked = true;
+            this.chbPago.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.chbPago.Location = new System.Drawing.Point(368, 71);
+            this.chbPago.Name = "chbPago";
+            this.chbPago.Size = new System.Drawing.Size(57, 17);
+            this.chbPago.TabIndex = 29;
+            this.chbPago.Text = "Pago?";
+            this.chbPago.UseVisualStyleBackColor = true;
+            // 
+            // chbPagosNaoPagos
+            // 
+            this.chbPagosNaoPagos.AutoSize = true;
+            this.chbPagosNaoPagos.Location = new System.Drawing.Point(577, 101);
+            this.chbPagosNaoPagos.Name = "chbPagosNaoPagos";
+            this.chbPagosNaoPagos.Size = new System.Drawing.Size(78, 17);
+            this.chbPagosNaoPagos.TabIndex = 30;
+            this.chbPagosNaoPagos.Text = "Não pagos";
+            this.chbPagosNaoPagos.UseVisualStyleBackColor = true;
+            this.chbPagosNaoPagos.CheckedChanged += new System.EventHandler(this.ChbPagosNaoPagos_CheckedChanged);
+            // 
             // FormFaturamento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(667, 429);
+            this.Controls.Add(this.chbPagosNaoPagos);
+            this.Controls.Add(this.chbPago);
             this.Controls.Add(this.lblLoading);
             this.Controls.Add(this.lblValorTotal);
             this.Controls.Add(this.txtValor);
@@ -187,6 +217,7 @@
             this.Controls.Add(this.dtpData);
             this.Controls.Add(this.grdFaturamentos);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "FormFaturamento";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -214,5 +245,7 @@
         private System.Windows.Forms.DataGridView grdFaturamentos;
         private System.Windows.Forms.Label lblValorTotal;
         private System.Windows.Forms.Label lblLoading;
+        private System.Windows.Forms.CheckBox chbPago;
+        private System.Windows.Forms.CheckBox chbPagosNaoPagos;
     }
 }

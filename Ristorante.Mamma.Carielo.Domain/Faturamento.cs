@@ -9,6 +9,7 @@ namespace Ristorante.Mamma.Carielo.Domain
         public DateTime Data { get; set; }
         public FormaPagamentoEnum FormaPagamento { get; set; }
         public string Observacao { get; set; }
+        public bool IsPago { get; set; }
 
         public int ClienteId { get; set; }
         public Cliente Cliente { get; set; }
