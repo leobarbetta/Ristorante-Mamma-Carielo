@@ -284,11 +284,6 @@
             "AssemblyAsmDisplayName" = "8:Ristorante.Mamma.Carielo.Persistence, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_207E233B0A90AB6CB6470F19737927E0"
-                    {
-                    "Name" = "8:Ristorante.Mamma.Carielo.Persistence.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Ristorante.Mamma.Carielo.Persistence.dll"
             "TargetName" = "8:"
@@ -335,11 +330,6 @@
             "AssemblyAsmDisplayName" = "8:Ristorante.Mamma.Carielo.Domain, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_3B48E48EE2BD6FB1DCB1856FF87A69C9"
-                    {
-                    "Name" = "8:Ristorante.Mamma.Carielo.Domain.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Ristorante.Mamma.Carielo.Domain.dll"
             "TargetName" = "8:"
@@ -468,11 +458,6 @@
             "AssemblyAsmDisplayName" = "8:Ristorante.Mamma.Carielo.Repository, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E55A1FB32E2F41E98F9E04CA20CC4383"
-                    {
-                    "Name" = "8:Ristorante.Mamma.Carielo.Repository.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Ristorante.Mamma.Carielo.Repository.dll"
             "TargetName" = "8:"
@@ -581,15 +566,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Ristorante"
-        "ProductCode" = "8:{DA11CCF9-095C-4DBB-B5D0-BCF562EA1104}"
-        "PackageCode" = "8:{6E2AF933-C44C-4C02-9521-9292694A3B7B}"
+        "ProductCode" = "8:{37824611-A809-4260-8A08-A13A3EF1FDD3}"
+        "PackageCode" = "8:{C0B06462-CD26-47C7-8ACC-5D07C188E083}"
         "UpgradeCode" = "8:{4500DCBA-CAD1-4E35-8EFE-637BF7D6CE1D}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.1"
+        "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Mamma Carielo"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

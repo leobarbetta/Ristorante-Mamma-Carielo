@@ -13,6 +13,9 @@ namespace Ristorante.Mamma.Carielo.WinForms
     {
         private ClienteRepository _clienteRepository = new ClienteRepository();
         private FaturamentoRepository _faturamentoRepository = new FaturamentoRepository();
+
+        public FormInicial @FormInicial { get; set; }
+
         public FormFaturamento()
         {
             InitializeComponent();
@@ -63,6 +66,7 @@ namespace Ristorante.Mamma.Carielo.WinForms
                         cbxFormaPagamento.Text = "Selecione";
                         cbxCliente.Text = "Selecione";
                     });
+                    @FormInicial.CarregaIndicadores();
                 }
                 else
                     MessageBox.Show("Houve um erro");
@@ -132,6 +136,7 @@ namespace Ristorante.Mamma.Carielo.WinForms
                 await _faturamentoRepository.Update(faturamento).ContinueWith((taskAnterior) =>
                 {
                     CarregaGrid();
+                    @FormInicial.CarregaIndicadores();
                 });
             }
         }

@@ -52,7 +52,7 @@
             this.grdDespesas.Location = new System.Drawing.Point(12, 124);
             this.grdDespesas.Name = "grdDespesas";
             this.grdDespesas.Size = new System.Drawing.Size(643, 285);
-            this.grdDespesas.TabIndex = 0;
+            this.grdDespesas.TabIndex = 7;
             this.grdDespesas.Visible = false;
             // 
             // dtpData
@@ -60,7 +60,7 @@
             this.dtpData.Location = new System.Drawing.Point(226, 69);
             this.dtpData.Name = "dtpData";
             this.dtpData.Size = new System.Drawing.Size(199, 20);
-            this.dtpData.TabIndex = 2;
+            this.dtpData.TabIndex = 4;
             // 
             // cbxFormaPagamento
             // 
@@ -75,7 +75,7 @@
             this.txtObservacao.Location = new System.Drawing.Point(431, 29);
             this.txtObservacao.Name = "txtObservacao";
             this.txtObservacao.Size = new System.Drawing.Size(199, 60);
-            this.txtObservacao.TabIndex = 4;
+            this.txtObservacao.TabIndex = 5;
             this.txtObservacao.Text = "";
             // 
             // lblValor
@@ -120,7 +120,7 @@
             this.btnSalvar.Location = new System.Drawing.Point(147, 95);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(396, 23);
-            this.btnSalvar.TabIndex = 9;
+            this.btnSalvar.TabIndex = 6;
             this.btnSalvar.Text = "Salvar Despesa";
             this.btnSalvar.UseVisualStyleBackColor = true;
             this.btnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
@@ -140,14 +140,14 @@
             this.cbxMercado.Location = new System.Drawing.Point(226, 28);
             this.cbxMercado.Name = "cbxMercado";
             this.cbxMercado.Size = new System.Drawing.Size(199, 21);
-            this.cbxMercado.TabIndex = 10;
+            this.cbxMercado.TabIndex = 2;
             // 
             // txtValor
             // 
             this.txtValor.Location = new System.Drawing.Point(29, 29);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(191, 20);
-            this.txtValor.TabIndex = 12;
+            this.txtValor.TabIndex = 1;
             this.txtValor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtValor_KeyPress);
             // 
             // lblValorTotal

@@ -19,7 +19,10 @@ namespace Ristorante.Mamma.Carielo.WinForms
 
         private void FaturamentoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormFaturamento form = new FormFaturamento();
+            FormFaturamento form = new FormFaturamento
+            {
+                FormInicial = this
+            };
             thread = new Thread(() => { Application.Run(form); });
             thread.SetApartmentState(ApartmentState.STA);
             thread.Start();
@@ -27,7 +30,10 @@ namespace Ristorante.Mamma.Carielo.WinForms
 
         private void DespesasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormDespesa form = new FormDespesa();
+            FormDespesa form = new FormDespesa
+            {
+                FormInicial = this
+            };
             thread = new Thread(() => { Application.Run(form); });
             thread.SetApartmentState(ApartmentState.STA);
             thread.Start();
@@ -65,7 +71,7 @@ namespace Ristorante.Mamma.Carielo.WinForms
             });
         }
 
-        private async void CarregaIndicadores()
+        public async void CarregaIndicadores()
         {
             List<Despesa> despesas = await _despesaRepository.Select();
             List<Faturamento> faturamentos = await _faturamentoRepository.Select(p => p.IsPago);

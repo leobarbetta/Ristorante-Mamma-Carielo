@@ -13,6 +13,7 @@ namespace Ristorante.Mamma.Carielo.WinForms
     {
         private MercadoRepository _mercadoRepository = new MercadoRepository();
         private DespesaRepository _despesaRepository = new DespesaRepository();
+        public FormInicial @FormInicial { get; set; }
         public FormDespesa()
         {
             InitializeComponent();
@@ -62,6 +63,7 @@ namespace Ristorante.Mamma.Carielo.WinForms
                         cbxFormaPagamento.Text = "Selecione";
                         cbxMercado.Text = "Selecione";
                     });
+                    @FormInicial.CarregaIndicadores();
                 }
                 else
                     MessageBox.Show("Houve um erro");

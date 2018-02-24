@@ -53,7 +53,7 @@
             this.txtValor.Location = new System.Drawing.Point(29, 29);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(191, 20);
-            this.txtValor.TabIndex = 24;
+            this.txtValor.TabIndex = 1;
             this.txtValor.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.TxtValor_KeyPress);
             // 
             // label1
@@ -71,7 +71,7 @@
             this.cbxCliente.Location = new System.Drawing.Point(226, 29);
             this.cbxCliente.Name = "cbxCliente";
             this.cbxCliente.Size = new System.Drawing.Size(199, 21);
-            this.cbxCliente.TabIndex = 22;
+            this.cbxCliente.TabIndex = 2;
             // 
             // btnSalvar
             // 
@@ -79,7 +79,7 @@
             this.btnSalvar.Location = new System.Drawing.Point(147, 95);
             this.btnSalvar.Name = "btnSalvar";
             this.btnSalvar.Size = new System.Drawing.Size(396, 23);
-            this.btnSalvar.TabIndex = 21;
+            this.btnSalvar.TabIndex = 7;
             this.btnSalvar.Text = "Salvar Entrada";
             this.btnSalvar.UseVisualStyleBackColor = true;
             this.btnSalvar.Click += new System.EventHandler(this.BtnSalvar_Click);
@@ -125,7 +125,7 @@
             this.txtObservacao.Location = new System.Drawing.Point(431, 29);
             this.txtObservacao.Name = "txtObservacao";
             this.txtObservacao.Size = new System.Drawing.Size(199, 60);
-            this.txtObservacao.TabIndex = 16;
+            this.txtObservacao.TabIndex = 6;
             this.txtObservacao.Text = "";
             // 
             // cbxFormaPagamento
@@ -134,7 +134,7 @@
             this.cbxFormaPagamento.Location = new System.Drawing.Point(29, 69);
             this.cbxFormaPagamento.Name = "cbxFormaPagamento";
             this.cbxFormaPagamento.Size = new System.Drawing.Size(163, 21);
-            this.cbxFormaPagamento.TabIndex = 15;
+            this.cbxFormaPagamento.TabIndex = 3;
             // 
             // dtpData
             // 
@@ -142,7 +142,7 @@
             this.dtpData.Location = new System.Drawing.Point(199, 69);
             this.dtpData.Name = "dtpData";
             this.dtpData.Size = new System.Drawing.Size(163, 20);
-            this.dtpData.TabIndex = 14;
+            this.dtpData.TabIndex = 4;
             // 
             // grdFaturamentos
             // 
@@ -150,7 +150,7 @@
             this.grdFaturamentos.Location = new System.Drawing.Point(12, 124);
             this.grdFaturamentos.Name = "grdFaturamentos";
             this.grdFaturamentos.Size = new System.Drawing.Size(643, 285);
-            this.grdFaturamentos.TabIndex = 13;
+            this.grdFaturamentos.TabIndex = 9;
             this.grdFaturamentos.Visible = false;
             this.grdFaturamentos.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.GrdFaturamentos_CellClick);
             // 
@@ -180,7 +180,7 @@
             this.chbPago.Location = new System.Drawing.Point(368, 71);
             this.chbPago.Name = "chbPago";
             this.chbPago.Size = new System.Drawing.Size(57, 17);
-            this.chbPago.TabIndex = 29;
+            this.chbPago.TabIndex = 5;
             this.chbPago.Text = "Pago?";
             this.chbPago.UseVisualStyleBackColor = true;
             // 
@@ -190,7 +190,7 @@
             this.chbPagosNaoPagos.Location = new System.Drawing.Point(577, 101);
             this.chbPagosNaoPagos.Name = "chbPagosNaoPagos";
             this.chbPagosNaoPagos.Size = new System.Drawing.Size(78, 17);
-            this.chbPagosNaoPagos.TabIndex = 30;
+            this.chbPagosNaoPagos.TabIndex = 8;
             this.chbPagosNaoPagos.Text = "Não pagos";
             this.chbPagosNaoPagos.UseVisualStyleBackColor = true;
             this.chbPagosNaoPagos.CheckedChanged += new System.EventHandler(this.ChbPagosNaoPagos_CheckedChanged);
